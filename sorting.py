@@ -1,6 +1,6 @@
 def swap(alist, index):
     
-    a = alist[index] # sets the variable and puts the index item of alist into it.
+    a = alist[index] 
     b = alist[index+1]
     alist[index] = b
     alist[index+1] = a
