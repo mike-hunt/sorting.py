@@ -1,9 +1,5 @@
 def swap(alist, index):
-    '''
-    This function swaps two items in a list.  
     
-    The function takes a list and an index as inputs, and out outputs a list with two items swapped
-    '''
     a = alist[index] # sets the variable and puts the index item of alist into it.
     b = alist[index+1]
     alist[index] = b
@@ -37,11 +33,7 @@ def ssort(alist):
 
     
 def mergeSort(alist)
-    '''
-    This is another sort algorithm, this is called a merge sort, it recursively seperates and merges the items in a list untill they are sorted
-    For each line in this code write a comment explaining what the line does.
-    
-    This has some errors
+   
     '''
     
     if len(alist) >= 1:
